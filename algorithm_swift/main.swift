@@ -4,3 +4,6 @@ import Foundation
 print(solution())
 
 
+func solution(){
+    
+}
