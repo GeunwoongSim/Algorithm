@@ -26,6 +26,10 @@
 		5E4C2E982AA48ED30075BA74 /* algorithm_swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm_swift; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E4C2E9B2AA48ED30075BA74 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		5E6890472D4221CC0028608C /* pro42578.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pro42578.swift; sourceTree = "<group>"; };
+		5EEF53E72D47DA9F00C3102E /* pro42747.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pro42747.swift; sourceTree = "<group>"; };
+		5EEF53E92D48339200C3102E /* pro17680.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pro17680.swift; sourceTree = "<group>"; };
+		5EEF54002D4B34EB00C3102E /* pro42586.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pro42586.swift; sourceTree = "<group>"; };
+		5EEF54022D4B4ECD00C3102E /* pro87946.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pro87946.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,13 +48,6 @@
 			children = (
 			);
 			path = "not correct";
-			sourceTree = "<group>";
-		};
-		5E381B932D227039009CAAAA /* algorithm_study */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = algorithm_study;
 			sourceTree = "<group>";
 		};
 		5E381B942D22740C009CAAAA /* BOJ */ = {
@@ -82,7 +79,6 @@
 				5E4C2E9B2AA48ED30075BA74 /* main.swift */,
 				5E381B922D226FE0009CAAAA /* not correct */,
 				5E381B942D22740C009CAAAA /* BOJ */,
-				5E381B932D227039009CAAAA /* algorithm_study */,
 				5EFADE922ACA310E001913E2 /* programmers */,
 			);
 			path = algorithm_swift;
@@ -91,7 +87,11 @@
 		5EFADE922ACA310E001913E2 /* programmers */ = {
 			isa = PBXGroup;
 			children = (
+				5EEF54022D4B4ECD00C3102E /* pro87946.swift */,
 				5E6890472D4221CC0028608C /* pro42578.swift */,
+				5EEF53E72D47DA9F00C3102E /* pro42747.swift */,
+				5EEF53E92D48339200C3102E /* pro17680.swift */,
+				5EEF54002D4B34EB00C3102E /* pro42586.swift */,
 			);
 			path = programmers;
 			sourceTree = "<group>";

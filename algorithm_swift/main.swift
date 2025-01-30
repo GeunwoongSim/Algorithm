@@ -4,6 +4,5 @@ import Foundation
 print(solution())
 
 
-func solution(){
-    print("커밋 테스트")
-}
+//print(solution())
+print(solution(80  ,  [[80,20],[50,40],[30,10]]))
