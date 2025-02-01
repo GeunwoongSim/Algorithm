@@ -1,8 +1,5 @@
 import Foundation
 
 //print(solution())
-print(solution())
 
-
-//print(solution())
-print(solution(80  ,  [[80,20],[50,40],[30,10]]))
+print(solution("{{4,2,3},{3},{2,3,4,1},{2,3}}"))

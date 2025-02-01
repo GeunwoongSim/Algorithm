@@ -23,13 +23,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5E3DD1022D4E1122008861F6 /* pro64065.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pro64065.swift; sourceTree = "<group>"; };
 		5E4C2E982AA48ED30075BA74 /* algorithm_swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm_swift; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E4C2E9B2AA48ED30075BA74 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		5E6890472D4221CC0028608C /* pro42578.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pro42578.swift; sourceTree = "<group>"; };
-		5EEF53E72D47DA9F00C3102E /* pro42747.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pro42747.swift; sourceTree = "<group>"; };
-		5EEF53E92D48339200C3102E /* pro17680.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pro17680.swift; sourceTree = "<group>"; };
-		5EEF54002D4B34EB00C3102E /* pro42586.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pro42586.swift; sourceTree = "<group>"; };
-		5EEF54022D4B4ECD00C3102E /* pro87946.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pro87946.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,11 +83,7 @@
 		5EFADE922ACA310E001913E2 /* programmers */ = {
 			isa = PBXGroup;
 			children = (
-				5EEF54022D4B4ECD00C3102E /* pro87946.swift */,
-				5E6890472D4221CC0028608C /* pro42578.swift */,
-				5EEF53E72D47DA9F00C3102E /* pro42747.swift */,
-				5EEF53E92D48339200C3102E /* pro17680.swift */,
-				5EEF54002D4B34EB00C3102E /* pro42586.swift */,
+				5E3DD1022D4E1122008861F6 /* pro64065.swift */,
 			);
 			path = programmers;
 			sourceTree = "<group>";
@@ -289,6 +281,7 @@
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = C5K6DF875Z;
 				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -303,6 +296,7 @@
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = C5K6DF875Z;
 				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
