@@ -1,17 +1,16 @@
 import Foundation
 
 //print(solution())
-//print(solution("AAA" ,   "BBB"))
+print(solution([1, 2, 1, 3, 1, 4, 1, 2]))
 
-
-var PQ: PriorityQueue<Int> = PriorityQueue<Int>()
-
-PQ.push(1)
-PQ.push(2)
-PQ.push(3)
-PQ.push(4)
-PQ.push(5)
-PQ.pop()
-
-print(PQ)
+// input 데이터 생성
+func inputDataCreate() -> [Int] {
+    let MAX: Int = 10
+    var inputData: [Int] = []
+    for num in 1...MAX {
+        inputData.append(num)
+    }
+//    print(inputData)
+    return inputData
+}
 

@@ -25,10 +25,23 @@
 /* Begin PBXFileReference section */
 		5E4C2E982AA48ED30075BA74 /* algorithm_swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm_swift; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E4C2E9B2AA48ED30075BA74 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		5EDE17732D5191930089C3A3 /* pro132265.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pro132265.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5EDE17752D51A2730089C3A3 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				PriorityQueue.swift,
+				Queue.swift,
+				Stack.swift,
+			);
+			target = 5E4C2E972AA48ED30075BA74 /* algorithm_swift */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		5E69D7E62D50D7380027F892 /* Basic */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Basic; sourceTree = "<group>"; };
+		5E69D7E62D50D7380027F892 /* Basic */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (5EDE17752D51A2730089C3A3 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Basic; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +100,7 @@
 		5EFADE922ACA310E001913E2 /* programmers */ = {
 			isa = PBXGroup;
 			children = (
+				5EDE17732D5191930089C3A3 /* pro132265.swift */,
 			);
 			path = programmers;
 			sourceTree = "<group>";
