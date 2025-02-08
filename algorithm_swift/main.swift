@@ -1,7 +1,7 @@
 import Foundation
 
 //print(solution())
-print(solution(437674   , 3))
-print(solution(110011    ,10))
+print(solution([[1,2,3,5],[5,6,7,8],[4,3,2,1]]))
+
 
 
