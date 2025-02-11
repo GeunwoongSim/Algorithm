@@ -1,7 +1,7 @@
 import Foundation
 
 //print(solution())
-print(solution("CBD"   , ["BACDE", "CBADF", "AECB", "BDA"]))
+print(solution([0,0,0,0]))
 
 
 
