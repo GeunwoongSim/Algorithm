@@ -1,7 +1,7 @@
 import Foundation
 
 //print(solution())
-print(solution("17"))
+print(solution(2  ,  10 ,   [7,4,5,6]))
 
 
 
