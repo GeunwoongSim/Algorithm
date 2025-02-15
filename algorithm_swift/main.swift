@@ -1,7 +1,8 @@
 import Foundation
 
 //print(solution())
-print(solution(2  ,  10 ,   [7,4,5,6]))
+//print(solution("10000",2))
+print(solution("1231234" , 3))
 
 
 
