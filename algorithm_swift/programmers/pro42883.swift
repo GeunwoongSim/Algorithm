@@ -15,7 +15,6 @@ func solution(_ number:String, _ k:Int) -> String {
           k -= 1
           stack.removeLast()
         }
-        
         stack.append(num)
       }
     }else { // 스택이 비어있는 경우
