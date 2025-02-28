@@ -1,7 +1,7 @@
 import Foundation
 
 //print(solution())
-print(solution(5 , 5 , 1))
+print(solution(["img12", "img10.png", "img02.png", "img1.png", "IMG01.GIF", "img2.JPG"]))
 
 
 
