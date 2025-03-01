@@ -25,7 +25,7 @@ func filesConvert(_ files: [String]) -> [file] {
   
   for (idx, contentStr) in files.enumerated() {
     let content = contentStr.map{ String($0) }
-    
+
     var tempStr: String = ""
     var head: String = ""
     var isHead: Bool = true
