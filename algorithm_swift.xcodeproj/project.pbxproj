@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5E4C2E9C2AA48ED30075BA74 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4C2E9B2AA48ED30075BA74 /* main.swift */; };
-		5EFEC4972D748B1800B7CC96 /* pro77885.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFEC4962D748B1800B7CC96 /* pro77885.swift */; };
+		5EFEC5012D75928200B7CC96 /* pro68936.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFEC5002D75928200B7CC96 /* pro68936.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,17 +26,7 @@
 /* Begin PBXFileReference section */
 		5E4C2E982AA48ED30075BA74 /* algorithm_swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm_swift; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E4C2E9B2AA48ED30075BA74 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		5EA199822D5EBF47000520F4 /* pro42583.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pro42583.swift; sourceTree = "<group>"; };
-		5EA19A7B2D607736000520F4 /* pro42883.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pro42883.swift; sourceTree = "<group>"; };
-		5EA19A8D2D61E711000520F4 /* pro17687.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pro17687.swift; sourceTree = "<group>"; };
-		5EA19ACC2D633676000520F4 /* pro17684.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pro17684.swift; sourceTree = "<group>"; };
-		5EFEBBED2D6C0BA400B7CC96 /* pro131704.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pro131704.swift; sourceTree = "<group>"; };
-		5EFEBDF02D6D43FA00B7CC96 /* pro92341.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pro92341.swift; sourceTree = "<group>"; };
-		5EFEBEBF2D6E943700B7CC96 /* pro43162.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pro43162.swift; sourceTree = "<group>"; };
-		5EFEBFC42D6FE35D00B7CC96 /* pro154538.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pro154538.swift; sourceTree = "<group>"; };
-		5EFEC0FF2D71344800B7CC96 /* pro17686.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pro17686.swift; sourceTree = "<group>"; };
-		5EFEC1FB2D72BF7400B7CC96 /* pro17679.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pro17679.swift; sourceTree = "<group>"; };
-		5EFEC4962D748B1800B7CC96 /* pro77885.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pro77885.swift; sourceTree = "<group>"; };
+		5EFEC5002D75928200B7CC96 /* pro68936.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pro68936.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -116,17 +106,7 @@
 		5EFADE922ACA310E001913E2 /* programmers */ = {
 			isa = PBXGroup;
 			children = (
-				5EA199822D5EBF47000520F4 /* pro42583.swift */,
-				5EA19A7B2D607736000520F4 /* pro42883.swift */,
-				5EA19A8D2D61E711000520F4 /* pro17687.swift */,
-				5EA19ACC2D633676000520F4 /* pro17684.swift */,
-				5EFEBBED2D6C0BA400B7CC96 /* pro131704.swift */,
-				5EFEBDF02D6D43FA00B7CC96 /* pro92341.swift */,
-				5EFEBEBF2D6E943700B7CC96 /* pro43162.swift */,
-				5EFEBFC42D6FE35D00B7CC96 /* pro154538.swift */,
-				5EFEC0FF2D71344800B7CC96 /* pro17686.swift */,
-				5EFEC1FB2D72BF7400B7CC96 /* pro17679.swift */,
-				5EFEC4962D748B1800B7CC96 /* pro77885.swift */,
+				5EFEC5002D75928200B7CC96 /* pro68936.swift */,
 			);
 			path = programmers;
 			sourceTree = "<group>";
@@ -192,7 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EFEC4972D748B1800B7CC96 /* pro77885.swift in Sources */,
+				5EFEC5012D75928200B7CC96 /* pro68936.swift in Sources */,
 				5E4C2E9C2AA48ED30075BA74 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
