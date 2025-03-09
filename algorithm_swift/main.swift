@@ -1,9 +1,5 @@
 import Foundation
 
 //print(solution())
-//print(solution([100,100,100,100,100]))
-//print(solution([2,4,8,12,3,24,16]))
-//print(solution([100,180,360,100,270]))
-print(solution([100,100,100,200,200]))
 
-
+print(solution(9  ,[[1,3],[2,3],[3,4],[4,5],[4,6],[4,7],[7,8],[7,9]]))
