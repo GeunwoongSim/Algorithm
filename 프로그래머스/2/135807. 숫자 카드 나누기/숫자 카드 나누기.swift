@@ -5,69 +5,45 @@ func solution(_ arrayA:[Int], _ arrayB:[Int]) -> Int {
     let arrayB = arrayB.sorted()
     var result: Int = 0 // 결과값
     
+    print(arrayA, arrayB)
     // 공약수를 구함
-    let aGcdNum = findGCD(arrayA)
-    let aGcds = findCDs(aGcdNum).sorted(by: >)
-    let aTemp = comp(arrayB, aGcds)
+    let aCD = findCD(arrayA)
+    print(aCD)
     
-    let bGcdNum = findGCD(arrayB)
-    let bGcds = findCDs(bGcdNum).sorted(by: >)
-    let bTemp = comp(arrayA, bGcds)
-    
-    result = max(aTemp, bTemp)
     
     return result
 }
 
-// 최대 공약수 구하기
-// num1 <= num2
 func gcd(_ num1: Int, _ num2: Int) -> Int {
-    if num2 % num1 == 0 {
-        return num1
-    }
-    return gcd(num2 % num1, num1)
+    let minNum = min(num1, num2)
+    let maxNum = max(num1, num2)
+    return maxNum % minNum == 0 ? maxNum/minNum : gcd(minNum, maxNum%minNum)
 }
 
-// 배열을 받아서 배열의 최대 공약수를 반환
-func findGCD(_ array: [Int]) -> Int{
-    if array.count == 1 { return array[0] }
+func findCD(_ arr: [Int]) -> [Int] {
+    // 원소가 한개면 해당 원소 반환
+    if arr.count == 1 { return arr } 
     
-    var num: Int = gcd(array[0], array[1])
-    if array.count >= 3 {
-        for idx in 2..<array.count {
-            num = gcd(num,array[idx])
+    // 공약수들
+    var result: [Int] = []
+    // 최소값이랑 최대값이랑 최대 공약수를 구함 - 범위 줄이기
+    let len = arr.count
+    var num = gcd(arr[0], arr[len-1]) 
+    
+    var idx: Int = 1
+    while idx < arr.count - 1 {
+        num = gcd(num, arr[idx])
+        idx += 1
+    }
+    
+    let sqrtNum = sqrt(Double(num))
+    
+    for value in 1...Int(sqrtNum) {
+        if num % value == 0 {
+            result.append(value)
+            result.append(num/value)
         }
     }
-    return num
-}
-
-// 숫자를 받아서 숫자의 약수 반환
-func findCDs(_ num: Int) -> [Int] {
-    var cds: Set<Int> = Set<Int>()
-    for i in 1...Int(sqrt(Double(num))) {
-        if num % i == 0 {
-            cds.insert(i)
-            cds.insert(num/i)
-        }
-    }
-    return cds.sorted()
-}
-
-// 비교할 배열과 공약수를 입력 받아서 조건에 맞는 최대 양의 정수 반환
-func comp(_ origin: [Int], _ gcds: [Int]) -> Int {
-    var result: Int = 0
-    for gcd in gcds {
-        var flag = true
-        for number in origin {
-            if number % gcd == 0 {
-                flag = false 
-                break
-            }
-        }
-        
-        if flag {
-            result = max(result, gcd)
-        }
-    }
+    
     return result
 }
